@@ -1,0 +1,35 @@
+/* (ViewBookings, ManageMovies) */
+.table-container{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th{
+    background:#1e293b;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+}
+
+.edit-btn{
+    background:#f59e0b;
+    color:white;
+    padding:8px 12px;
+    border-radius:5px;
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+    padding:8px 12px;
+    border-radius:5px;
+}

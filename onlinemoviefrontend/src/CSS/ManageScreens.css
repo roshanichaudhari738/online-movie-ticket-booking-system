@@ -1,0 +1,82 @@
+.manage-screens-container {
+    padding: 30px;
+}
+
+.manage-screens-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.screens-grid {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center; */
+
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 320px));
+    gap: 25px;
+    justify-content: center;
+}
+
+.screen-card {
+     width: 320px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.screen-card:hover {
+    transform: translateY(-5px);
+}
+
+.screen-card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.screen-card p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.status-active {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.activate-btn,
+.deactivate-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.activate-btn {
+    background: #22c55e;
+}
+
+.activate-btn:hover {
+    background: #16a34a;
+}
+
+.deactivate-btn {
+    background: #ef4444;
+}
+
+.deactivate-btn:hover {
+    background: #dc2626;
+}

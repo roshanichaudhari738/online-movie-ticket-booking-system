@@ -1,0 +1,44 @@
+.update-movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.update-movie-card {
+    background: white;
+    padding: 30px;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.update-movie-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.update-movie-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.update-btn {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update-btn:hover {
+    background: #1d4ed8;
+}

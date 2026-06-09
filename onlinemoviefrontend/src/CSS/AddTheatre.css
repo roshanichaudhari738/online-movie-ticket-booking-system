@@ -1,0 +1,48 @@
+.add-theatre-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.add-theatre-card {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.add-theatre-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.theatre-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.theatre-input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.add-theatre-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-theatre-btn:hover {
+    background: #1d4ed8;
+}

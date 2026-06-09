@@ -1,0 +1,113 @@
+.manage-movies {
+  padding: 30px;
+}
+
+.manage-movies h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.movie-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-image {
+   width: 100%;
+  height: 400px;
+  object-fit: contain;
+  background: #f3f4f6;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.movie-content {
+  padding: 15px;
+}
+
+.movie-content h3 {
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.movie-content p {
+  margin: 6px 0;
+  color: #4b5563;
+}
+
+/* Status */
+.status-active {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* Buttons */
+.movie-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.edit-btn,
+.activate-btn,
+.deactivate-btn {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Edit */
+.edit-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Activate */
+.activate-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.activate-btn:hover {
+  background: #16a34a;
+}
+
+/* Deactivate */
+.deactivate-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.deactivate-btn:hover {
+  background: #dc2626;
+}

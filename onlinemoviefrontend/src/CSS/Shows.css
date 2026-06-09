@@ -1,0 +1,80 @@
+.shows-container {
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.shows-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #111827;
+}
+
+.shows-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.show-card {
+  width: 350px;
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+}
+
+.show-label {
+  font-size: 14px;
+  color: #6b7280;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.show-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 18px;
+}
+
+.show-price {
+  color: #22c55e;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.select-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select-btn:hover {
+  background: #1d4ed8;
+}
+
+.no-shows {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.no-shows p {
+  font-size: 24px;
+  color: #ef4444;
+  font-weight: 600;
+}
